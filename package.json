@@ -1,0 +1,26 @@
+{
+  "name": "separador-simples",
+  "version": "1.0.0",
+  "description": "Separador de arquivos simples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "stonedev",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SrSt0n3/separador-simples.git"
+  },
+  "keywords": [
+    "SeparadorDeArquivos"
+  ],
+  "bugs": {
+    "url": "https://github.com/SrSt0n3/separador-simples/issues"
+  },
+  "homepage": "https://github.com/SrSt0n3/separador-simples#readme"
+}
