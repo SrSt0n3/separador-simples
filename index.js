@@ -1,13 +1,8 @@
 const fs = require('fs');
 const config = require('./config.json')
-if(!config.cortes) return console.log('config.json mal configurado')
-if(!config.arquivos) return console.log('config.json mal configurado')
-if(!config.separados) return console.log('config.json mal configurado')
-if(!fs.existsSync(`./${config.arquivos}`)) return console.log('config.json mal configurado')
-if(!fs.existsSync(`./${config.separados}`)) return console.log('config.json mal configurado')
+if(!config.cortes || !config.arquivos || !config.separados || !fs.existsSync(`./${config.arquivos}`) || !fs.existsSync(`./${config.separados}`)) return console.log('config.json mal configurado')
 const arquivos = config.arquivos
 const separados = config.separados
-
 console.log('---------------------------')
 console.log('|  SEPARADOR BY STONEDEV  |')
 console.log('---------------------------')
