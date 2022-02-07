@@ -22,4 +22,4 @@ node index.js
 ```
 
 ## License
-This project is licensed under the MIT License - [MIT License](./LICENSE.md) © [StoneDev](https://ostone.dev/)
+This project is licensed under the MIT License - [MIT License](./LICENSE) © [StoneDev](https://ostone.dev/)
